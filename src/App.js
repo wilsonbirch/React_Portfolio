@@ -11,6 +11,8 @@ function App() {
     return (
       <Wrapper>
         <Header></Header>
+
+        <Footer></Footer>
       </Wrapper>
     );
 
