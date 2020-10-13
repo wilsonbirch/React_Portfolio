@@ -6,11 +6,11 @@ function Wrapper(props) {
   return (
     <footer className="footer">
     <h4>My Responsive Portfolio</h4>
-   
+
     <Email fontSize="small"></Email>: wilsonbirch@gmail.com 
     <PhoneAndroid fontSize="small"></PhoneAndroid>: 613-229-4163
     <Description fontSize="small"></Description>: <a href = {resume} target = "_blank" rel="noopener noreferrer" className="card-link text-primary" id="resume">Resume</a>
-    
+
   </footer> 
   );
 }

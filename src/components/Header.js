@@ -3,7 +3,7 @@ import React from "react";
 function Header(props) {
   return (
     
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+    <nav className="navbar navbar-expand-sm " role="navigation">
   
       <a className="navbar-brand" href="#">Wilson Birch</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
