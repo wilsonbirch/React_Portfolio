@@ -62,14 +62,12 @@ body {
 
 .container {
   margin: 0 auto;
-
 }
 
 .card {
   margin: 0 auto; 
   float: none; 
   margin-bottom: 10px; 
-
 }
 
 .footer{
@@ -94,13 +92,10 @@ body {
 }
 
 #image_me{
-
   width: 100%;
-
 }
 
 .card-text{
-
   margin-top: 10px;
 }
 
@@ -113,7 +108,13 @@ body {
   align-items: center;
 }
 
-#social {
-  height: 58px;
-  width: 58px;
+.social {
+  max-width: 58px;
+  height: auto;
+}
+
+@media screen and (max-width:767 px) {
+  .container {
+    background-color: black;
+  }
 }

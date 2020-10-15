@@ -7,6 +7,8 @@ import Instagram from "../assets/Instagram.png"
 
 function About (props) {
 
+    //console.log(window.innerWidth)
+
     return (
 
         <main className="container">
@@ -29,39 +31,39 @@ function About (props) {
 
                 <section className="row">
 
-                    <div className = "col"></div>
+                    <div className = "col-sm"></div>
 
-                    <article className="card bg-light col">
+                    <article className="card bg-light col-md">
                     <div className="card-body">
-                        <a href="https://www.linkedin.com/in/wilson-birch-188ba396/" target = "_blank" rel="noopener noreferrer"><img src= {LinkedIn} alt = "LinkedIn Logo" ></img></a>
+                        <a href="https://www.linkedin.com/in/wilson-birch-188ba396/" target = "_blank" rel="noopener noreferrer"><img src= {LinkedIn} alt = "LinkedIn Logo" className = "social"></img></a>
                     </div>
                     </article>
 
-                    <div className = "col"></div>
+                    <div className = "col-sm"></div>
 
-                    <article className="card bg-white col" >
+                    <article className="card bg-white col-md" >
                     <div className="card-body">
-                        <a href="https://www.facebook.com/wilson.birch" target = "_blank" rel="noopener noreferrer"><img src= {Fb} alt = "Facebook Logo" ></img></a>
+                        <a href="https://www.facebook.com/wilson.birch" target = "_blank" rel="noopener noreferrer"><img src= {Fb} alt = "Facebook Logo" className = "social"></img></a>
                     </div>
                     </article>
 
-                    <div className = "col"></div>
+                    <div className = "col-sm"></div>
 
-                    <article className="card bg-light col" >
+                    <article className="card bg-light col-md" >
                     <div className="card-body">
-                        <a href="https://www.instagram.com/wilsonbirch/" target = "_blank" rel="noopener noreferrer"><img src= {Instagram} alt = "Instagram Logo" id = "social"></img></a>
+                        <a href="https://www.instagram.com/wilsonbirch/" target = "_blank" rel="noopener noreferrer"><img src= {Instagram} alt = "Instagram Logo" className = "social"></img></a>
                     </div>
                     </article>
 
-                    <div className = "col"></div>
+                    <div className = "col-sm"></div>
 
-                    <article className="card bg-white col" >
+                    <article className="card bg-white col-md" >
                     <div className="card-body">
-                        <a href="https://github.com/wilsonbirch" target = "_blank" rel="noopener noreferrer"><img src= {Github} alt = "Instagram Logo" id = "social"></img></a>
+                        <a href="https://github.com/wilsonbirch" target = "_blank" rel="noopener noreferrer"><img src= {Github} alt = "Instagram Logo" className = "social"></img></a>
                     </div>
                     </article>
 
-                    <div className = "col"></div>
+                    <div className = "col-sm"></div>
       
                 </section>
               </section>
