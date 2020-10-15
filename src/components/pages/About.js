@@ -7,8 +7,6 @@ import Instagram from "../assets/Instagram.png"
 
 function About (props) {
 
-    //console.log(window.innerWidth)
-
     return (
 
         <main className="container">

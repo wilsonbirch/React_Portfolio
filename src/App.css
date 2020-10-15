@@ -113,8 +113,19 @@ body {
   height: auto;
 }
 
-@media screen and (max-width:767 px) {
-  .container {
-    background-color: black;
-  }
+.contactCard {
+  width: 25rem;
+}
+
+.portfolioCard {
+  width: 80%
+}
+
+.projectCard {
+  text-align: center;
+  width: 90%;
+}
+
+.projectApplication {
+  margin-right: 10%;
 }
