@@ -6,6 +6,7 @@ import About from './components/pages/About'
 import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import Footer from './components/Footer'
+//import Main from './components/Main'
 
 
 
@@ -14,7 +15,7 @@ function App() {
     return (
       <Router>
         <Header />
-        <Route exact path = "/" component ={About} />
+        <Route exact path = "/React_Portfolio/" component ={About} />
         <Route exact path = "/portfolio" component ={Portfolio} />
         <Route exact path = "/contact" component ={Contact} />
         <Footer></Footer>
