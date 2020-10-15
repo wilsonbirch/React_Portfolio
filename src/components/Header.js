@@ -9,22 +9,22 @@ function Header(props) {
   return (
 
     <Navbar collapseOnSelect  expand="sm">
-      <a className="navbar-brand " href="/React_Portfolio/">Wilson Birch</a><img src={logo} className="App-logo" alt="logo" />
+      <a className="navbar-brand " href="/">Wilson Birch</a><img src={logo} className="App-logo" alt="logo" />
     <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav className="navbar-nav ml-auto">
         <Nav.Item>
-          <Nav.Link eventKey="1" as={Link} to="/React_Portfolio/">
+          <Nav.Link eventKey="1" as={Link} to="/">
             About
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-           <Nav.Link eventKey="2" as={Link} to="/React_Portfolio/portfolio">
+           <Nav.Link eventKey="2" as={Link} to="/portfolio">
             Portfolio
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-           <Nav.Link eventKey="3" as={Link} to="/React_Portfolio/contact">
+           <Nav.Link eventKey="3" as={Link} to="/contact">
             Contact
           </Nav.Link>
         </Nav.Item>

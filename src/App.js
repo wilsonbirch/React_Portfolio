@@ -14,9 +14,9 @@ function App() {
     return (
       <Router>
         <Header />
-        <Route exact path = "/React_Portfolio/" component ={About} />
-        <Route exact path = "/React_Portfolio/portfolio" component ={Portfolio} />
-        <Route exact path = "/React_Portfolio/contact" component ={Contact} />
+        <Route exact path = "/" component ={About} />
+        <Route exact path = "/portfolio" component ={Portfolio} />
+        <Route exact path = "/contact" component ={Contact} />
         <Footer></Footer>
       </Router>
         
