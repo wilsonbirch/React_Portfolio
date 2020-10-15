@@ -17,17 +17,17 @@ function Contact (props) {
                 <form name="submit-to-google-sheet">
       
                   <div className="form-group">
-                    <label for="formGroupExampleInput">Name</label>
+                    <label htmlFor="formGroupExampleInput">Name</label>
                     <input name = "name" type="text" className="form-control" id="formGroupExampleInput" placeholder="Your Name" required></input>
                   </div>
       
                   <div className="form-group">
-                    <label for="formGroupExampleInput2">Email</label>
+                    <label htmlFor="formGroupExampleInput2">Email</label>
                     <input name = "email" type="email" className="form-control" id="formGroupExampleInput2" placeholder="Your Email"></input>
                   </div>
       
                   <div className="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
+                    <label htmlFor="exampleFormControlTextarea1">Message</label>
                     <textarea name = "message" className="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                   </div>
       

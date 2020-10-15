@@ -57,7 +57,7 @@ function About (props) {
 
                     <article className="card bg-white col-md" >
                     <div className="card-body">
-                        <a href="https://github.com/wilsonbirch" target = "_blank" rel="noopener noreferrer"><img src= {Github} alt = "Instagram Logo" className = "social"></img></a>
+                        <a href="https://github.com/wilsonbirch" target = "_blank" rel="noopener noreferrer"><img src= {Github} alt = "Github Logo" className = "social"></img></a>
                     </div>
                     </article>
 

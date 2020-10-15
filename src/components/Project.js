@@ -8,6 +8,7 @@ import RestReviewer from "./assets/rest_reviewer_screenshot.png"
 import EmployeeSummary from "./assets/employee_template_screenshot.png"
 import EmployeeTracker from "./assets/emp_track_screenshot.png"
 import ReactEmp from "./assets/react_employee.png"
+import WorkoutTracker from "./assets/workout_tracker.png"
 
 function Project() {
 
@@ -77,6 +78,13 @@ function Project() {
         application: "https://wilsonbirch.github.io/HW3_Password_Generator/",
         github: "https://github.com/wilsonbirch/HW3_Password_Generator",
         id: 9
+    },
+    {
+        title: "Home Workout Tracker",
+        screenshot: WorkoutTracker,
+        application: "https://sheltered-spire-36879.herokuapp.com/stats",
+        github: "https://github.com/wilsonbirch/Home_Workout_Tracker",
+        id: 10
     }];
 
     let newProjectCardArray = projects.map(newProjectCard)
