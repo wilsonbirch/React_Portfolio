@@ -41,17 +41,28 @@
   font-size:14px
 }
 
-body{
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
+html {
   height: 100%;
+  box-sizing: border-box;
 }
 
-.container {
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
   position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
   min-height: 100%;
-  padding-bottom: 63px;
+}
+
+
+.container {
+  margin: 0 auto;
+
 }
 
 .card {
@@ -65,18 +76,17 @@ body{
   text-align: center;
   background-color:  #C6DEFF;
   border-top: 1px solid #AAAAAA;
-  position: fixed;
-  height: 63px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  
+  position: absolute;
+  right:0;
+  bottom:0;
+  left:0;
 }
 
 .navbar {
   margin-bottom: 40px;
   width: 100%;
-  background-color: #D1D0CE;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #AAAAAA;
 }
 
 .nav-link, .navbar-brand {
@@ -96,4 +106,14 @@ body{
 
 #resume{
   color: black;
+}
+
+.bg-white, .bg-light {
+  width: 12rem;
+  align-items: center;
+}
+
+#social {
+  height: 58px;
+  width: 58px;
 }

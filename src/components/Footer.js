@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import resume from "../assets/Wilson_Birch_Resume.pdf"
+import React from "react";
+import resume from "./assets/Wilson_Birch_Resume.pdf"
 import { Email, PhoneAndroid, Description } from '@material-ui/icons';
 
-function Wrapper(props) {
+function Footer() {
   return (
     <footer className="footer">
     <h4>My Responsive Portfolio</h4>
@@ -15,4 +15,4 @@ function Wrapper(props) {
   );
 }
 
-export default Wrapper;
+export default Footer;
