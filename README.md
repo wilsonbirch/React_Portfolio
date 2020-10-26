@@ -1,5 +1,5 @@
 # React_Portfolio
-Updated personal project portfolio, created in REACT, the app is hosted here: https://wilsonbirch.github.io/React_Portfolio/
+Updated personal project portfolio, created in REACT, the app is hosted here: https://wilsonbirch.github.io/react_portfolio_hosted/
 
 # Unit 20 React Homework: React Portfolio
 
