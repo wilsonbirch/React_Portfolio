@@ -9,6 +9,7 @@ import EmployeeSummary from "./assets/employee_template_screenshot.png"
 import EmployeeTracker from "./assets/emp_track_screenshot.png"
 import ReactEmp from "./assets/react_employee.png"
 import WorkoutTracker from "./assets/workout_tracker.png"
+import GoogleBooks from "./assets/googlebooks.png"
 
 function Project() {
 
@@ -29,32 +30,39 @@ function Project() {
         id: 2
     },
     {
+        title: "Google Books Search (MERN APP)",
+        screenshot: GoogleBooks,
+        application: "https://intense-lowlands-28384.herokuapp.com/",
+        github: "https://github.com/wilsonbirch/Google_Books",
+        id: 3
+    },
+    {
         title: "Burger Tracker",
         screenshot: BurgerTracker,
         application: "https://stark-tundra-94857.herokuapp.com/",
         github: "https://github.com/wilsonbirch/Burger_Tracker",
-        id: 3
+        id: 4
     
     },
     {
         title: "ATNMY Marketing Webpage",
         screenshot: ATNMY,
         application: "https://atnmymarketing.com/",
-        id: 4
+        id: 5
     },
     {
         title: "Project 2: Restaurant Reviewer",
         screenshot: RestReviewer,
         application: "https://secure-mesa-11479.herokuapp.com/",
         github: "https://github.com/wilsonbirch/restaurant-reviewer-2.0",
-        id: 5
+        id: 6
     },
     {
         title: "Template Engine, Employee Summary",
         screenshot: EmployeeSummary,
         application: "https://drive.google.com/file/d/1WVdho-EbAIigQTI1wWAudm0FUMBXwxNi/view",
         github: "https://github.com/wilsonbirch/Template_Engine_Employee_Summary",
-        id: 6
+        id: 7
     
     },
     {
@@ -62,7 +70,7 @@ function Project() {
         screenshot: DayPlanner,
         application: "https://wilsonbirch.github.io/Day_Planner/",
         github: "https://github.com/wilsonbirch/Day_Planner",
-        id: 7
+        id: 8
     
     },
     {
@@ -70,21 +78,21 @@ function Project() {
         screenshot: EmployeeTracker,
         application: "https://drive.google.com/file/d/1eTZP16KUctK3DBhMSp740yAxJJ-_K5kD/preview",
         github: "https://github.com/wilsonbirch/Employee_Tracker_DB-CLI",
-        id: 8
+        id: 9
     },
     {
         title: "Password Generator",
         screenshot: PasswordGenerator,
         application: "https://wilsonbirch.github.io/HW3_Password_Generator/",
         github: "https://github.com/wilsonbirch/HW3_Password_Generator",
-        id: 9
+        id: 10
     },
     {
         title: "Home Workout Tracker",
         screenshot: WorkoutTracker,
         application: "https://sheltered-spire-36879.herokuapp.com/stats",
         github: "https://github.com/wilsonbirch/Home_Workout_Tracker",
-        id: 10
+        id: 11
     }];
 
     let newProjectCardArray = projects.map(newProjectCard)
