@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e2e798d.chunk.css",
+    "main.js": "/static/js/main.e5563eea.chunk.js",
+    "main.js.map": "/static/js/main.e5563eea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ea1ad2b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ea1ad2b7.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9046db8c.chunk.js": "/static/js/2.9046db8c.chunk.js",
+    "static/js/2.9046db8c.chunk.js.map": "/static/js/2.9046db8c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.65b799974db256ed0cc5c4c3e55fc8b2.js": "/precache-manifest.65b799974db256ed0cc5c4c3e55fc8b2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.8e2e798d.chunk.css.map": "/static/css/main.8e2e798d.chunk.css.map",
+    "static/js/2.9046db8c.chunk.js.LICENSE.txt": "/static/js/2.9046db8c.chunk.js.LICENSE.txt",
+    "static/media/GitHub.png": "/static/media/GitHub.3c8cb700.png",
+    "static/media/PW_generator.png": "/static/media/PW_generator.3fbdcb30.png",
+    "static/media/TM_screenshot_.png": "/static/media/TM_screenshot_.0142eb5a.png",
+    "static/media/Wilson_Birch_Resume.pdf": "/static/media/Wilson_Birch_Resume.0ccdbf96.pdf",
+    "static/media/Wilson_Panda.png": "/static/media/Wilson_Panda.4edf5b12.png",
+    "static/media/atnmy_screenshot.png": "/static/media/atnmy_screenshot.f17e6f10.png",
+    "static/media/burger_tracker_screenshot.png": "/static/media/burger_tracker_screenshot.7b46f6b3.png",
+    "static/media/emp_track_screenshot.png": "/static/media/emp_track_screenshot.5d130677.png",
+    "static/media/employee_template_screenshot.png": "/static/media/employee_template_screenshot.c5502bbb.png",
+    "static/media/googlebooks.png": "/static/media/googlebooks.41f5ae20.png",
+    "static/media/project_1.png": "/static/media/project_1.18e2b5a8.png",
+    "static/media/react_employee.png": "/static/media/react_employee.f57422af.png",
+    "static/media/react_logo.svg": "/static/media/react_logo.5d5d9eef.svg",
+    "static/media/rest_reviewer_screenshot.png": "/static/media/rest_reviewer_screenshot.a362a48d.png",
+    "static/media/workout_tracker.png": "/static/media/workout_tracker.bd3452b7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea1ad2b7.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9046db8c.chunk.js",
+    "static/css/main.8e2e798d.chunk.css",
+    "static/js/main.e5563eea.chunk.js"
+  ]
+}
