@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 30px;
+  height: 40vmin;
   pointer-events: none;
 }
 
@@ -13,8 +13,19 @@
   }
 }
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
-  color: #C6DEFF;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -24,97 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.material-icons {
-  font-size:14px
-}
-
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  position: relative;
-  margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
-}
-
-
-.container {
-  margin: 0 auto;
-}
-
-.card {
-  margin: 0 auto; 
-  float: none; 
-  margin-bottom: 10px; 
-}
-
-.footer{
-  text-align: center;
-  background-color:  #C6DEFF;
-  border-top: 1px solid #AAAAAA;
-  position: absolute;
-  right:0;
-  bottom:0;
-  left:0;
-}
-
-.navbar {
-  margin-bottom: 40px;
-  width: 100%;
-  background-color: #F5F5F5;
-  border-bottom: 1px solid #AAAAAA;
-}
-
-.nav-link, .navbar-brand {
-  color: black;
-}
-
-#image_me{
-  width: 100%;
-}
-
-.card-text{
-  margin-top: 10px;
-}
-
-#resume{
-  color: black;
-}
-
-.bg-white, .bg-light {
-  width: 12rem;
-  align-items: center;
-}
-
-.social {
-  max-width: 58px;
-  height: auto;
-}
-
-.contactCard {
-  width: 25rem;
-}
-
-.portfolioCard {
-  width: 80%
-}
-
-.projectCard {
-  text-align: center;
-  width: 90%;
-}
-
-.projectApplication {
-  margin-right: 10%;
 }
