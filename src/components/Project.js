@@ -8,9 +8,18 @@ import EmployeeTracker from './assets/emp_track_screenshot.png';
 import ReactEmp from './assets/react_employee.png';
 import WorkoutTracker from './assets/workout_tracker.png';
 import GoogleBooks from './assets/googlebooks.png';
+import BlogMania from './assets/BLOG_MANIA.png';
+
 
 function Project() {
 	const projects = [
+        {
+			title: 'Blog Mania',
+			screenshot: BlogMania,
+			application: 'https://alpha-blog-1317.herokuapp.com/',
+			github: 'https://github.com/wilsonbirch/alpha_blog',
+			id: 2,
+		},
 		{
 			title: 'React Employee Directory',
 			screenshot: ReactEmp,
@@ -21,7 +30,7 @@ function Project() {
 		{
 			title: 'Google Books Search (MERN APP)',
 			screenshot: GoogleBooks,
-			application: 'https://intense-lowlands-28384.herokuapp.com/',
+			application: 'https://google-books-1234.herokuapp.com/',
 			github: 'https://github.com/wilsonbirch/Google_Books',
 			id: 4,
 		},
@@ -72,7 +81,7 @@ function Project() {
 		{
 			title: 'Home Workout Tracker',
 			screenshot: WorkoutTracker,
-			application: 'https://sheltered-spire-36879.herokuapp.com/stats',
+			application: 'https://sheltered-spire-36879.herokuapp.com/',
 			github: 'https://github.com/wilsonbirch/Home_Workout_Tracker',
 			id: 12,
 		},
